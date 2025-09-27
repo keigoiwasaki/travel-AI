@@ -1,4 +1,4 @@
-# LuxingAI
+# travel-AI
 
 最適化とAIを活用した旅行プラン作成アプリ
 
