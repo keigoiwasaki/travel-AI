@@ -70,7 +70,6 @@ travel-AI/
 
 ## 5. envファイル設定
 `.env` ファイルにAPIキーを保存します。  
-例：
 ```bash
 GOOGLE_API_KEY=your_google_api_key_here
 HOTEL_API_KEY=your_hotel_api_key_here
