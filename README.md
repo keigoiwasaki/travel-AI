@@ -2,7 +2,7 @@
 
 最適化とAIを活用した旅行プラン作成アプリ
 
-## 概要
+## 1. 概要
 
 本アプリは、ユーザーが入力した条件や希望に基づき、AIと最適化アルゴリズムを組み合わせて旅行スケジュールを提案するアプリです。
 
@@ -11,7 +11,7 @@
 - ホテルやレストランの情報をAPI経由で取得可能  
 - ユーザー入力とデフォルト地点を組み合わせて柔軟にプランを生成  
 
-## 特徴
+## 2. 特徴
 
 1. **AIによる補助**  
    - ユーザーの自然言語入力を解析  
@@ -29,7 +29,7 @@
    - デフォルトで設定した観光地やスポットを保持  
    - ユーザー入力による補足条件を統合  
 
-## フォルダ構成
+## 3. フォルダ構成
 ```bash
 travel-AI/
 │
@@ -59,7 +59,7 @@ travel-AI/
     └── development.ipynb         # 開発・検証用ノートブック
 ```
 
-## ⚙️ 主な機能
+## 4. 主な機能
 
 | 機能カテゴリ | 説明 |
 |---------------|------|
@@ -68,14 +68,13 @@ travel-AI/
 | 🚗 **経路最適化 (route)** | 観光地の順序や制約条件をもとに最適経路を計算 |
 | 🍽 **レストラン検索 (restaurant)** | 食事時間やエリアに応じて候補の飲食店を提案 |
 
-## .envファイル設定
+## 5. envファイル設定
 `.env` ファイルにAPIキーを保存します。  
 例：
 - GOOGLE_API_KEY=your_google_api_key_here
 - HOTEL_API_KEY=your_hotel_api_key_here
-- RESTAURANT_API_KEY=your_restaurant_api_key_here
 
-## 実行確認（Python 3.11以上推奨）
+## 6. 実行確認（Python 3.11以上推奨）
 python -m venv venv
 source venv/bin/activate  # macOS/Linux
 venv\Scripts\activate     # Windows
