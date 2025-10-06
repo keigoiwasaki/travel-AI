@@ -72,8 +72,8 @@ travel-AI/
 `.env` ファイルにAPIキーを保存します。  
 例：
 ```bash
-- GOOGLE_API_KEY=your_google_api_key_here
-- HOTEL_API_KEY=your_hotel_api_key_here
+GOOGLE_API_KEY=your_google_api_key_here
+HOTEL_API_KEY=your_hotel_api_key_here
 ```
 
 ## 6. 実行確認（Python 3.11以上推奨）
@@ -83,7 +83,7 @@ source venv/bin/activate  # macOS/Linux
 venv\Scripts\activate     # Windows
 pip install -r requirements.txt
 ```
-### 6.1. ユーザー入力の解析を確認
+### 6-1. ユーザー入力の解析を確認
 ```bash
 python src/language_parser.py
 ```
